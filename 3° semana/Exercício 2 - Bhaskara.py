@@ -14,7 +14,7 @@ if delta > 0:
     else:
         print('as raízes da equação são {r2} e {r1}'.format(r1=r1, r2=r2))
 
-if delta == 0:
+elif delta == 0:
     print('a raiz dupla desta equação é', r1)
 else:
     print('esta equação não possui raízes reais')
