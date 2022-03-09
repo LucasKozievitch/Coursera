@@ -6,7 +6,7 @@ def maximo(x, y, z):
     elif z > x and z > y:
         return z
     else:
-        return maximo
+        return x or y or z
 
 x = int(input('Digite o primeiro número: '))
 y = int(input('Digite o segundo número: '))
